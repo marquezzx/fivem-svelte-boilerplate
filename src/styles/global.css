@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/outfit');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  user-select: none;
+  box-sizing: border-box;
+  border: none;
+  transition: all ease .25s;
+  font-family: "Outfit";
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
